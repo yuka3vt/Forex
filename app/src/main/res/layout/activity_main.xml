@@ -211,7 +211,7 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:textColor="#fff"
-                android:text="GDP"/>
+                android:text="GBP"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -224,7 +224,7 @@
                 android:gravity="right"
                 android:padding="10dp"
                 android:textColor="#fff"
-                android:id="@+id/gdpTextView"/>
+                android:id="@+id/gbpTextView"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -278,6 +278,10 @@
                 android:textColor="#fff"
                 android:id="@+id/jpyTextView"/>
         </GridLayout>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/loadingProgessBar"/>
     </FrameLayout>
-
 </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
